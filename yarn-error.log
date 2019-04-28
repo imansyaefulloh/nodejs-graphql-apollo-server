@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/var/nvm/versions/node/v11.12.0/bin/node /Users/imansyaefulloh/.yarn/bin/yarn.js add requilize sequilize-cli sqlite3
+
+PATH: 
+  /usr/local/opt/gradle/libexec/bin:/usr/local/opt/ruby/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/var/nvm/versions/node/v11.12.0/bin:/Users/imansyaefulloh/.composer/vendor/bin:/usr/local/sbin:/Users/imansyaefulloh/Projects/flutter/flutter/bin:/Users/imansyaefulloh/.local/bin:/Users/imansyaefulloh/.yarn/bin:/Users/imansyaefulloh/.rvm/gems/ruby-2.3.0/bin:/Users/imansyaefulloh/.rvm/gems/ruby-2.3.0@global/bin:/Users/imansyaefulloh/.rvm/rubies/ruby-2.3.0/bin:/usr/local/opt/php@7.2/bin:/usr/local/bin:/Users/imansyaefulloh/.composer/vendor/bin:/Users/imansyaefulloh/ndk/android-ndk-r10e:/Users/imansyaefulloh/Library/Android/sdk/tools:/Users/imansyaefulloh/Library/Android/sdk/platform-tools:/usr/local/bin:~/.composer/vendor/bin:vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/imansyaefulloh/Library/Android/sdk/tools:/Users/imansyaefulloh/Library/Android/sdk/platform-tools:/Users/imansyaefulloh/.rvm/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  11.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/requilize: Not found
+      at Request.params.callback [as _callback] (/Users/imansyaefulloh/.yarn/lib/cli.js:63139:18)
+      at Request.self.callback (/Users/imansyaefulloh/.yarn/lib/cli.js:124547:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (/Users/imansyaefulloh/.yarn/lib/cli.js:125519:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (/Users/imansyaefulloh/.yarn/lib/cli.js:125441:12)
+      at Object.onceWrapper (events.js:285:20)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1132:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "nodejs-graphql-recipe-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
